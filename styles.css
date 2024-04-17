@@ -1,0 +1,43 @@
+/* CSS reset */
+* { box-sizing: border-box; } /* Switch to border-box for box-sizing. */
+
+body {
+  margin: 0; /* Remove the tiny space around the edge of the page */
+  background-color: #D5E1EF;
+  font-family: "Outfit", sans-serif;
+
+}
+.container {
+    display: flex;
+    justify-content: center;
+    margin: 17% auto 2rem;
+  
+}
+
+img {
+    display: block;
+    width: 100%;
+    margin: 0 auto;
+    border-radius: 13px;
+}
+
+.card {
+    width: 375px;
+    background-color: white;
+    border-radius: 18px;
+    padding: 1rem;
+    text-align: center;
+    align-self: center;
+   
+}
+
+h1 {
+    font-size: 1.5rem;
+    padding: .6em;
+}
+
+p {
+    color: #7D889E;
+    padding: .6em;
+    font-size: 1.2rem;
+}
